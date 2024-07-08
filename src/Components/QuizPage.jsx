@@ -28,7 +28,7 @@ const QuizPage = () => {
       question: "What is the capital of Spain",
       questionNo: 4,
       options: ["Berlin", "Madrid", "Washington ", "Paris "],
-      correctOption: "Madrid ",
+      correctOption: "Madrid",
     },
     {
       question: "What is the capital of Russia",

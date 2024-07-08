@@ -1,6 +1,6 @@
 const Questions = ({ data, onSelectOption, check, correctAnswer }) => {
   return (
-    <div className="w-full  ">
+    <div className="w-full ">
       <h1 className=" p-12 bg-green-400 font-semibold">
         {" "}
         {data?.questionNo} . {data?.question}

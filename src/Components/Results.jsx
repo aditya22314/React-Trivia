@@ -9,7 +9,7 @@ const Results = ({ score, setScore }) => {
   return (
     <div className="flex items-center justify-center flex-col w-full gap-5 h-full bg-blue-300">
       <h1> Total no of Questions : 5 </h1>
-      <p> Score :{score} </p>
+      <p className="text-3xl"> Score :{score} </p>
       <button
         className="bg-green-500 p-5 text-white rounded-full m-4 w-[150px] h-[60px] items-center hover:bg-red-600 "
         onClick={() => handleReset()}

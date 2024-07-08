@@ -65,7 +65,10 @@ const QuizPage = () => {
 
   return (
     <div className="w-full h-full flex flex-col ">
-      <h1 className="p-6"> Live Score : {score}</h1>
+      <h1 className="p-6">
+        {" "}
+        <p className="font-bold bg-green-50"> Live Score : {score} </p>{" "}
+      </h1>
 
       {/* {currentQuestionIndex !== questions.length && <h1> Timer : </h1> && (
         <Timer />

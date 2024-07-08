@@ -28,7 +28,7 @@ const QuizPage = () => {
       question: "What is the capital of Spain",
       questionNo: 4,
       options: ["Berlin", "Madrid", "Washington ", "Paris "],
-      correctOption: "Paris ",
+      correctOption: "Madrid ",
     },
     {
       question: "What is the capital of Russia",
@@ -91,7 +91,7 @@ const QuizPage = () => {
       {currentQuestionIndex != questions.length && (
         <div className="flex justify-center">
           <button
-            className="bg-blue-400 p-2  rounded-lg w-[150px] h-[60px] items-center "
+            className="bg-blue-400 p-2 font-medium  rounded-lg w-[150px] h-[60px] items-center "
             onClick={handleQuestionChange}
           >
             {" "}
